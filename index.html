@@ -1,6 +1,140 @@
-<h1>Welcome to My Website</h1>
-<p>This is a simple website created using HTML.</p>
-<h2>About Me</h2>
-<p>Hello! I am learning web development.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozy Crochet Creations</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff8f3;
+        }
+
+        header {
+            background-color: #d98ca3;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #f5c2d0;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background-color: #ffeef2;
+        }
+
+        .hero h1 {
+            color: #c85a7c;
+        }
+
+        .products {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            padding: 30px;
+        }
+
+        .card {
+            background: white;
+            width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            text-align: center;
+            padding: 15px;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #d98ca3;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        button {
+            background-color: #d98ca3;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #c06c84;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Cozy Crochet Creations</h1>
+        <p>Handmade Crochet Products with Love ❤️</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Welcome to Our Crochet Store</h1>
+        <p>Beautiful handmade crochet bags, flowers, keychains, and more!</p>
+        <button>Shop Now</button>
+    </section>
+
+    <section class="products">
+        <div class="card">
+            <img src="https://via.placeholder.com/250" alt="Crochet Bag">
+            <h3>Crochet Bag</h3>
+            <p>₹499</p>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/250" alt="Crochet Flower">
+            <h3>Crochet Flower</h3>
+            <p>₹199</p>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/250" alt="Crochet Keychain">
+            <h3>Crochet Keychain</h3>
+            <p>₹149</p>
+            <button>Buy Now</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Cozy Crochet Creations | Handmade with Love 🧶</p>
+    </footer>
+
+</body>
+</html>
 
 
